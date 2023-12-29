@@ -1,22 +1,10 @@
 import "./App.css"
-import Profile from "./PortfolioContainer/Home/Profile"
-import { useTypewriter, Cursor } from "react-simple-typewriter"
+import Home from "./PortfolioContainer/Home/Home"
 
 function App() {
-  const [typeEffect] = useTypewriter({
-    words: ["Full Stack Dev 💻", "Mobile Dev 📱", "Cross Platform Dev 🌐"],
-    loop: {},
-    typeSpeed: 100,
-    deleteSpeed: 40,
-  })
   return (
     <div className="App">
-      <h1>
-        I'm a{" "}
-        <span style={{ fontweight: "bold", color: "green", marginLeft: "5px" }}>
-          {typeEffect}
-        </span>
-      </h1>
+      <Home />
     </div>
   )
 }
