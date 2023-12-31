@@ -1,6 +1,7 @@
 import Typical from "react-typical"
 import React from "react"
 import "./Profile.css"
+import "AboutMe.css"
 
 export default function Profile() {
   return (
